@@ -1,0 +1,40 @@
+@import "tailwindcss";
+
+/* Define custom font-face for Nunito */
+@font-face {
+  font-family: 'Nunito Sans';
+  font-style: normal;
+  font-weight: 100 900;
+  font-display: swap;
+  src: url('/assets/fonts/NunitoSans-VariableFont_YTLC,opsz,wdth,wght.woff2') format('woff2');
+}
+
+/* Variable font for italic text */
+@font-face {
+  font-family: 'Nunito Sans';
+  font-style: italic;
+  font-weight: 100 900;
+  font-display: swap;
+  src: url('/assets/fonts/NunitoSans-Italic-VariableFont_YTLC,opsz,wdth,wght.woff2') format('woff2');
+} 
+
+
+
+/* Apply Nunito font directly to the html element */
+/* tailwind.css */
+
+html { @apply scroll-smooth; }
+
+body {
+  @apply font-sans text-gray-800 leading-relaxed
+         max-w-7xl mx-auto px-4 sm:px-6 lg:px-8;
+}
+
+section      { @apply py-16 md:py-24; }
+/* override generic spacing only inside hero ↓ */
+
+
+.card { @apply shadow-sm rounded-xl p-6 border border-gray-100 hover:shadow-md transition; }
+
+.logo:hover { filter: brightness(0) saturate(100%) invert(47%) sepia(95%) hue-rotate(-12deg) brightness(96%) contrast(90%); }
+
