@@ -26,16 +26,15 @@ description: "Co-developed with leading universities &mdash; launching Fall 2025
   <!-- background image -->
 
   <picture>
-  <!-- modern formats first -->
-  <source type="image/webp" src="/assets/home/teacher-hero.webp">
+  <!-- modern format first -->
+  <source type="image/webp" srcset="/assets/home/teacher-hero.webp">
   <!-- fallback JPEG -->
   <img src="/assets/home/teacher-hero.jpg"
        alt="Teacher engaging students with laptop"
        class="absolute inset-0 w-full h-full object-cover object-center"
        sizes="(min-width: 1024px) 960px, 100vw"
        loading="eager" decoding="async">
-  </picture>
-
+</picture>
   <!-- dark-to-transparent gradient (70 % → 0 %) -->
   <div class="absolute inset-0
               bg-[linear-gradient(90deg,rgba(10,36,51,0.7)_25%,rgba(10,36,51,0.55)_50%,rgba(10,36,51,0.15)_75%,rgba(10,36,51,0)_100%)]">
