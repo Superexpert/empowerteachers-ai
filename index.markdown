@@ -24,9 +24,20 @@ description: "Co-developed with leading universities &mdash; launching Fall 2025
 <section class="relative h-[60vh] md:h-[70vh] overflow-hidden">
 
   <!-- background image -->
+  <!-- <img src="/assets/home/teacher-hero.jpg"
+       alt="Teacher engaging students with laptop"
+       class="absolute inset-0 w-full h-full object-cover object-center"> -->
+
+  <picture>
+  <!-- modern formats first -->
+  <source type="image/webp" src="/assets/home/teacher-hero.webp">
+  <!-- fallback JPEG -->
   <img src="/assets/home/teacher-hero.jpg"
        alt="Teacher engaging students with laptop"
-       class="absolute inset-0 w-full h-full object-cover object-center">
+       class="absolute inset-0 w-full h-full object-cover object-center"
+       sizes="(min-width: 1024px) 960px, 100vw"
+       loading="eager" decoding="async">
+  </picture>
 
   <!-- dark-to-transparent gradient (70 % → 0 %) -->
   <div class="absolute inset-0
