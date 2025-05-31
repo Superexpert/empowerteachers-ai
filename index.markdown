@@ -353,7 +353,7 @@ description: "Co-developed with leading universities &mdash; launching Fall 2025
        class="mt-10 inline-block rounded-lg bg-[#f5a623] hover:bg-[#e99a18]
               px-10 py-4 text-base font-semibold text-[#002d4d] shadow-md
               focus:outline-none focus-visible:ring-2 focus-visible:ring-[#f5a623]">
-      Email us&nbsp;&rarr;&nbsp;hello@superexpert.com
+      Email us &rarr; hello@superexpert.com
     </a>
     <!-- or add Calendly link as secondary button
     <a href="https://calendly.com/yourlink/15min" target="_blank"
