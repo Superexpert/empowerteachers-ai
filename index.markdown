@@ -3,6 +3,7 @@ layout: default
 title: "Empower Teachers AI - Generative AI Certificate for K-12 Teachers"
 description: "Co-developed with leading universities &mdash; launching Fall 2025."
 ---
+
 <div class="w-full h-2 bg-[#0a5c63]"></div>
 
 <header class="py-4">
@@ -14,7 +15,6 @@ description: "Co-developed with leading universities &mdash; launching Fall 2025
   </div>
 </header>
 
-
 <main>
 <!-- Google font -->
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -24,9 +24,6 @@ description: "Co-developed with leading universities &mdash; launching Fall 2025
 <section class="relative h-[60vh] md:h-[70vh] overflow-hidden">
 
   <!-- background image -->
-  <!-- <img src="/assets/home/teacher-hero.jpg"
-       alt="Teacher engaging students with laptop"
-       class="absolute inset-0 w-full h-full object-cover object-center"> -->
 
   <picture>
   <!-- modern formats first -->
@@ -119,7 +116,6 @@ description: "Co-developed with leading universities &mdash; launching Fall 2025
     </p>
   </div>
 </section>
-
 
 <!-- PROGRAM OVERVIEW  ---------------------------------------------->
 <section id="program" class="py-20 bg-slate-50">
@@ -338,8 +334,6 @@ description: "Co-developed with leading universities &mdash; launching Fall 2025
     </p>
   </div>
 </section>
-
-
 
 <!-- CTA STRIP -->
 <!-- FINAL CTA  ------------------------------------------------------>
