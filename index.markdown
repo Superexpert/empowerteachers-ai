@@ -9,9 +9,14 @@ description: "Co-developed with leading universities &mdash; launching Fall 2025
 <header class="py-4">
   <div class="container mx-auto flex items-center justify-between">
     <a href="/" class="flex items-center gap-2">
-      <img src="/assets/empowerteachers-logo.png" alt="Empower Teachers AI logo" class="h-[100px] w-auto" />
+      <img src="/assets/empowerteachers-logo.png" alt="Empower Teachers AI logo" class="h-[60px] w-auto" />
     </a>
-    <a class="text-sm font-medium text-[#0a5c63] hover:underline" href="mailto:hello@superexpert.com">Contact</a>
+    <div class="flex gap-x-6">
+      <a class="text-sm font-medium text-[#0a5c63] hover:underline" href="/assets/one-pager/Generative-AI-Certificate-for-K-12-Teachers.pdf">
+        Download 1-Pager
+      </a>
+      <a class="text-sm font-medium text-[#0a5c63] hover:underline" href="mailto:hello@superexpert.com">Contact</a>
+    </div>
   </div>
 </header>
 
@@ -125,16 +130,10 @@ description: "Co-developed with leading universities &mdash; launching Fall 2025
       Program Overview
     </h2>
     <!-- Card grid: stacks on mobile, 3-col on md+ -->
-    <div class="grid gap-10 md:grid-cols-3">
+    <div class="grid gap-8 md:grid-cols-3">
       <!-- 2-Week Essentials -->
       <div class="bg-white shadow-sm rounded-lg p-8 flex space-x-6">
-        <div class="flex-shrink-0 w-12 h-12 rounded-full bg-[#0a5c63]
-                    flex items-center justify-center">
-          <svg class="w-6 h-6 text-white" fill="none" stroke="currentColor"
-               stroke-width="2" viewBox="0 0 24 24">
-            <path d="M4 4h16v16H4z" />
-          </svg>
-        </div>
+        <img src="/assets/home/bullet-two-week.png" alt="" class="h-[60px] w-auto" />
         <div>
           <h3 class="font-semibold text-lg text-gray-900">2-Week Essentials</h3>
           <p class="mt-1 text-gray-700">
@@ -144,13 +143,7 @@ description: "Co-developed with leading universities &mdash; launching Fall 2025
       </div>
       <!-- 8-Week Advanced -->
       <div class="bg-white shadow-sm rounded-lg p-8 flex space-x-6">
-        <div class="flex-shrink-0 w-12 h-12 rounded-full bg-[#0a5c63]
-                    flex items-center justify-center">
-          <svg class="w-6 h-6 text-white" fill="none" stroke="currentColor"
-               stroke-width="2" viewBox="0 0 24 24">
-            <path d="M12 6v6l4 2" />
-          </svg>
-        </div>
+        <img src="/assets/home/bullet-advanced.png" alt="" class="h-[60px] w-auto" />
         <div>
           <h3 class="font-semibold text-lg text-gray-900">8-Week Advanced</h3>
           <p class="mt-1 text-gray-700">
@@ -160,13 +153,7 @@ description: "Co-developed with leading universities &mdash; launching Fall 2025
       </div>
       <!-- Flexible Delivery -->
       <div class="bg-white shadow-sm rounded-lg p-8 flex space-x-6">
-        <div class="flex-shrink-0 w-12 h-12 rounded-full bg-[#0a5c63]
-                    flex items-center justify-center">
-          <svg class="w-6 h-6 text-white" fill="none" stroke="currentColor"
-               stroke-width="2" viewBox="0 0 24 24">
-            <path d="M16 12H8m0 0V8m0 4v4" />
-          </svg>
-        </div>
+        <img src="/assets/home/bullet-flexible.png" alt="" class="h-[60px] w-auto" />
         <div>
           <h3 class="font-semibold text-lg text-gray-900">Flexible Delivery</h3>
           <p class="mt-1 text-gray-700">
@@ -176,13 +163,7 @@ description: "Co-developed with leading universities &mdash; launching Fall 2025
       </div>
       <!-- Mentor-Led Cohorts -->
       <div class="bg-white shadow-sm rounded-lg p-8 flex space-x-6">
-        <div class="flex-shrink-0 w-12 h-12 rounded-full bg-[#0a5c63]
-                    flex items-center justify-center">
-          <svg class="w-6 h-6 text-white" fill="none" stroke="currentColor"
-               stroke-width="2" viewBox="0 0 24 24">
-            <path d="M5 13l4 4L19 7" />
-          </svg>
-        </div>
+        <img src="/assets/home/bullet-mentor.png" alt="" class="h-[60px] w-auto" />
         <div>
           <h3 class="font-semibold text-lg text-gray-900">Mentor-Led Cohorts</h3>
           <p class="mt-1 text-gray-700">
@@ -193,13 +174,7 @@ description: "Co-developed with leading universities &mdash; launching Fall 2025
       </div>
       <!-- AI Reflection Assistant -->
       <div class="bg-white shadow-sm rounded-lg p-8 flex space-x-6">
-        <div class="flex-shrink-0 w-12 h-12 rounded-full bg-[#0a5c63]
-                    flex items-center justify-center">
-          <svg class="w-6 h-6 text-white" fill="none" stroke="currentColor"
-               stroke-width="2" viewBox="0 0 24 24">
-            <path d="M12 5v14m7-7H5" />
-          </svg>
-        </div>
+        <img src="/assets/home/bullet-robot.png" alt="" class="h-[60px] w-auto" />
         <div>
           <h3 class="font-semibold text-lg text-gray-900">AI Reflection Assistant</h3>
           <p class="mt-1 text-gray-700">
@@ -209,13 +184,7 @@ description: "Co-developed with leading universities &mdash; launching Fall 2025
       </div>
       <!-- Assessments & Badges -->
       <div class="bg-white shadow-sm rounded-lg p-8 flex space-x-6">
-        <div class="flex-shrink-0 w-12 h-12 rounded-full bg-[#0a5c63]
-                    flex items-center justify-center">
-          <svg class="w-6 h-6 text-white" fill="none" stroke="currentColor"
-               stroke-width="2" viewBox="0 0 24 24">
-            <path d="M9 12l2 2 4-4" />
-          </svg>
-        </div>
+        <img src="/assets/home/bullet-badge.png" alt="" class="h-[60px] w-auto" />
         <div>
           <h3 class="font-semibold text-lg text-gray-900">Assessments &amp; Badges</h3>
           <p class="mt-1 text-gray-700">
@@ -328,8 +297,7 @@ description: "Co-developed with leading universities &mdash; launching Fall 2025
     </div>
     <!-- Support note -->
     <p class="mt-10 text-base text-gray-700">
-      Supported by a distributed team of AI engineers <span class="whitespace-nowrap">
-      (Azure / OpenAI certified).</span>
+     Built and maintained by a seasoned engineering team with deep experience deploying production-grade generative-AI solutions.
     </p>
   </div>
 </section>
@@ -355,13 +323,6 @@ description: "Co-developed with leading universities &mdash; launching Fall 2025
               focus:outline-none focus-visible:ring-2 focus-visible:ring-[#f5a623]">
       Email us &rarr; hello@superexpert.com
     </a>
-    <!-- or add Calendly link as secondary button
-    <a href="https://calendly.com/yourlink/15min" target="_blank"
-       class="mt-4 ml-0 md:ml-4 inline-block rounded-lg border border-[#f5a623]
-              px-10 py-4 text-base font-semibold text-[#f5a623] hover:bg-[#f5a623]/10">
-      Book a 15-min Zoom
-    </a>
-    -->
   </div>
 </section>
 </main>

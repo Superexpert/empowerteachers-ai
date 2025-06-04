@@ -270,9 +270,6 @@
   .mb-12 {
     margin-bottom: calc(var(--spacing) * 12);
   }
-  .ml-0 {
-    margin-left: calc(var(--spacing) * 0);
-  }
   .ml-3 {
     margin-left: calc(var(--spacing) * 3);
   }
@@ -297,20 +294,14 @@
   .h-5 {
     height: calc(var(--spacing) * 5);
   }
-  .h-6 {
-    height: calc(var(--spacing) * 6);
-  }
-  .h-12 {
-    height: calc(var(--spacing) * 12);
-  }
   .h-32 {
     height: calc(var(--spacing) * 32);
   }
+  .h-\[60px\] {
+    height: 60px;
+  }
   .h-\[60vh\] {
     height: 60vh;
-  }
-  .h-\[100px\] {
-    height: 100px;
   }
   .h-full {
     height: 100%;
@@ -320,12 +311,6 @@
   }
   .w-5 {
     width: calc(var(--spacing) * 5);
-  }
-  .w-6 {
-    width: calc(var(--spacing) * 6);
-  }
-  .w-12 {
-    width: calc(var(--spacing) * 12);
   }
   .w-32 {
     width: calc(var(--spacing) * 32);
@@ -378,8 +363,8 @@
   .gap-2 {
     gap: calc(var(--spacing) * 2);
   }
-  .gap-10 {
-    gap: calc(var(--spacing) * 10);
+  .gap-8 {
+    gap: calc(var(--spacing) * 8);
   }
   .space-y-3 {
     :where(& > :not(:last-child)) {
@@ -394,6 +379,9 @@
       margin-block-start: calc(calc(var(--spacing) * 10) * var(--tw-space-y-reverse));
       margin-block-end: calc(calc(var(--spacing) * 10) * calc(1 - var(--tw-space-y-reverse)));
     }
+  }
+  .gap-x-6 {
+    column-gap: calc(var(--spacing) * 6);
   }
   .space-x-6 {
     :where(& > :not(:last-child)) {
@@ -410,13 +398,6 @@
   }
   .rounded-lg {
     border-radius: var(--radius-lg);
-  }
-  .border {
-    border-style: var(--tw-border-style);
-    border-width: 1px;
-  }
-  .border-\[\#f5a623\] {
-    border-color: #f5a623;
   }
   .bg-\[\#0a5c63\] {
     background-color: #0a5c63;
@@ -531,9 +512,6 @@
   .text-\[\#002d4d\] {
     color: #002d4d;
   }
-  .text-\[\#f5a623\] {
-    color: #f5a623;
-  }
   .text-gray-500 {
     color: var(--color-gray-500);
   }
@@ -630,13 +608,6 @@
       }
     }
   }
-  .hover\:bg-\[\#f5a623\]\/10 {
-    &:hover {
-      @media (hover: hover) {
-        background-color: color-mix(in oklab, #f5a623 10%, transparent);
-      }
-    }
-  }
   .hover\:underline {
     &:hover {
       @media (hover: hover) {
@@ -669,11 +640,6 @@
   .md\:mb-14 {
     @media (width >= 48rem) {
       margin-bottom: calc(var(--spacing) * 14);
-    }
-  }
-  .md\:ml-4 {
-    @media (width >= 48rem) {
-      margin-left: calc(var(--spacing) * 4);
     }
   }
   .md\:block {
@@ -858,11 +824,6 @@ section {
   inherits: false;
   initial-value: 0;
 }
-@property --tw-border-style {
-  syntax: "*";
-  inherits: false;
-  initial-value: solid;
-}
 @property --tw-leading {
   syntax: "*";
   inherits: false;
@@ -970,4 +931,9 @@ section {
   syntax: "*";
   initial-value: "";
   inherits: false;
+}
+@property --tw-border-style {
+  syntax: "*";
+  inherits: false;
+  initial-value: solid;
 }
